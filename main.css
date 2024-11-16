@@ -18,10 +18,9 @@ body {
     background-size: cover;       
     background-repeat: no-repeat; 
     background-position: center;
-}
-
-a {
-    color: aliceblue;
+    margin: 0;             
+    padding-top: 0;     
+    font-family: Arial, sans-serif;
 }
 
 a:visited {
@@ -47,10 +46,12 @@ ul {
     font-family: 'Montserrat', sans-serif;
     gap: 20;
     width: 200px;
-    height: 30pxpx;
+    height: 30px;
     margin-top: 10px
-
-     
+}
+.about-button:hover, .projects-button:hover, .contact-button:hover{
+    background-color: #575757; 
+    border-radius: 10px;   
 
 }
 
@@ -60,11 +61,13 @@ ul {
 
 }
 .navbar {
-    background-color: #333; 
+    background-color: black; 
     overflow: hidden;      
     position: fixed;       
     width: 100%;           
-    padding: 20px 0;
+    padding: 40px 0;
+    top:0;
+    z-index: 1000;
    
 }
 .navbar ul {
@@ -82,7 +85,7 @@ ul {
 .navbar a {
     color: white;          
     text-decoration: none; 
-    font-size: 18px;
+    font-size: 23px;
     padding: 8px 16px;
     display: block;
     transition: background-color 0.3s;
@@ -93,8 +96,30 @@ ul {
     border-radius: 4px;        
 }
 
-body {
-    margin: 0;             
-    padding-top: 60px;     
-    font-family: Arial, sans-serif;
+.about-me-des{
+    font-size: 18px;          
+    color: #333;    
+    border-top: 2px solid #000;
+    background-color: #f4f4f4; 
+    padding: 100px;           
+    border-radius: 20px;     
+    max-width: 700px;        
+    margin: 20px auto;         
+    margin-top: 50px;
+    font-family: 'Arial', sans-serif; 
+
+}
+
+.skills-interests{
+    font-size: 18px;          
+    color: #333;              
+    background-color: #f4f4f4; 
+    padding: 100px;            
+    border-radius: 20px;     
+    max-width: 700px;        
+    margin: 30px auto;         
+    font-family: 'Arial', sans-serif; 
+
+
+
 }
