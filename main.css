@@ -14,7 +14,7 @@ header {
 }
 
 body {
-    background-color: #F9F6EE;
+    background-color: lightgray;
     background-size: cover;       
     background-repeat: no-repeat; 
     background-position: center;
@@ -24,6 +24,8 @@ body {
 }
 hr{
     color:black;
+    border: 1px solid #ccc;
+    margin-bottom: 20px;
 }
 
 a {
@@ -103,34 +105,43 @@ ul {
     background-color: #575757; 
     border-radius: 4px;        
 }
-
+/*About me Section*/
 .about-me-des{
     font-size: 18px;          
     color: #333;    
-    background-color: gray; 
+    background-color: #f4f4f4; 
     padding: 95px;           
-    border-radius: 40px;     
+    border-radius: 20px;     
     max-width: 700px;        
-    margin: 30px auto;         
+    margin: 50px auto;         
     font-family: 'Arial', sans-serif;
+    line-height: 1.6;
     margin-top: 100px 
+
+}
+.about-me-des p{
+    margin-bottom: 20px;
+
+}
+.about-me-des h1{
+    font-size: 28px;
+    color: #333;
+    font-weight: bold;
+    margin-bottom: 20px;
 
 }
 
 .skills-interests{
     font-size: 18px;          
-    color: #333;              
+    color: #333;    
     background-color: #f4f4f4; 
-    padding: 100px;            
-    border-radius: 40px;     
+    padding: 95px;           
+    border-radius: 20px;     
     max-width: 700px;        
-    margin: 30px auto;         
+    margin: 50px auto;         
     font-family: 'Arial', sans-serif;
-    display:flex;
-    justify-content: center;
-    align-items: center;
-    text-align: center;
-    background-color: gray;
+    line-height: 1.6;
+    margin-top: 100px 
 
 }
 /*Contact me section*/
@@ -149,7 +160,7 @@ input, textarea {
     padding: 50px 20px;
     max-width: 1200px;
     margin: 0 auto;
-    background-color: #F9F6EE;
+    background-color: lightgray;
 }
 
 .contact-header {
@@ -173,7 +184,6 @@ input, textarea {
     justify-content: space-between;
     gap: 30px;
 }
-
 
 .contact-form-container {
     flex: 2;
@@ -239,21 +249,22 @@ input, textarea {
 /* Projects Section*/
 .projects1{
     font-size: 18px;          
-    color: white;    
-    background-color: #353935; 
+    color: #333;    
+    background-color: #f4f4f4; 
     padding: 95px;           
-    border-radius: 40px;     
+    border-radius: 20px;     
     max-width: 700px;        
-    margin: 30px auto;         
+    margin: 50px auto;         
     font-family: 'Arial', sans-serif;
-    margin-top: 100px;
+    line-height: 1.6;
+    margin-top: 100px 
 
 }
 .spotify-link{
     display: flex;
     align-items: center;
     text-decoration: none;
-    color: white;
+    color: Black;
 }
 .spotify-logo{
     width: 30px;
