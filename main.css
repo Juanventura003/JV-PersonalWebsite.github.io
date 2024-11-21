@@ -33,7 +33,7 @@ a {
 }
 
 a:visited {
-    color: none;
+    color: #000000;
 }
 
 a:hover, a:active {
@@ -264,7 +264,7 @@ input, textarea {
     display: flex;
     align-items: center;
     text-decoration: none;
-    color: Black;
+    color: #000000;
 }
 .spotify-logo{
     width: 30px;
